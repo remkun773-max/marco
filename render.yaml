@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: my-discord-bot
+    runtime: python
+    buildCommand: "pip install discord.py google-generativeai flask"
+    startCommand: "python main.py"
+    
